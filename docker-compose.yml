@@ -11,7 +11,7 @@ services:
   grafana-image-renderer:
     build: ./image-renderer-mock
     ports:
-      - 8081:8081
+      - '8081'
   grafana:
     image: grafana/grafana:6.7.0-beta1
     volumes:
