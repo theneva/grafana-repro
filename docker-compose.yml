@@ -9,7 +9,7 @@ services:
     ports:
       - '9090'
   grafana-image-renderer:
-    build: ./image-renderer-mock
+    image: grafana/grafana-image-renderer:1.0.10
     ports:
       - '8081'
   grafana:
