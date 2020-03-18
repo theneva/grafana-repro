@@ -34,7 +34,7 @@ You then need to create the following resources in Grafana (this is to follow th
     1. using the Prometheus data source from step 1
     2. with Metrics set to `vector(1)`
     3. with an alert rule such as the one in the screenshot below
-    
-![alerting rule](https://user-images.githubusercontent.com/1404650/77013833-38991980-6971-11ea-8fc6-e8ff0fd1b06d.png)
 
 Save the dashboard. The alert should trigger, sending messages with `image_url` in the `attachment` fields of all three "Slack" messages, rather than just the one where we toggled `Include image` ON.
+
+![alerting rule](https://user-images.githubusercontent.com/1404650/77013833-38991980-6971-11ea-8fc6-e8ff0fd1b06d.png)
