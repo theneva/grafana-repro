@@ -1,0 +1,7 @@
+*.swp
+*.swo
+.idea/
+node_modules/
+
+/grafana/
+!/grafana/.gitkeep
